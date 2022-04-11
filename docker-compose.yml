@@ -10,7 +10,7 @@ services:
     ports: []
     restart: unless-stopped
     ports:
-      - "127.0.0.1:5432:5432" # RPC
+      - "127.0.0.1:5432:5432"
     volumes:
       - /srv/postgres-data/data:/var/lib/postgresql/data
     logging:
