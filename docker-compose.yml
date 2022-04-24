@@ -11,6 +11,7 @@ services:
     restart: unless-stopped
     ports:
       - "127.0.0.1:5432:5432"
+      - "10.56.4.2:5432:5432"
     volumes:
       - /srv/postgres-data/data:/var/lib/postgresql/data
     logging:
